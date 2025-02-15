@@ -1,0 +1,18 @@
+.futuristic-footer {
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(4px);
+    border-top: 1px solid rgba(0,255,255,0.3);
+    padding: 1rem;
+    text-align: center;
+    color: #ccc;
+  }
+  
+  .futuristic-footer p {
+    margin: 0;
+  }
+  
+  .social-links a {
+    margin: 0 0.5rem;
+    color: #00ffff;
+  }
+  

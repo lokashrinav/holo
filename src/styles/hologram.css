@@ -1,0 +1,76 @@
+/* Holographic Panel */
+.holo-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(0, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--soft-shadow);
+  transition: all 0.3s ease-in-out;
+}
+
+.holo-panel:hover {
+  box-shadow: var(--neon-shadow);
+  transform: scale(1.02);
+}
+
+/* Glowing Text */
+.neon-text {
+  color: var(--neon-blue);
+  text-shadow: var(--neon-shadow);
+}
+
+/* Scanning Effect (Subtle) */
+@keyframes scan {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 100%; }
+}
+
+.scanning-bg {
+  background: linear-gradient(180deg, rgba(0, 255, 255, 0.1), transparent);
+  background-size: 100% 200%;
+  animation: scan 8s infinite linear;
+}
+
+:root {
+  /* Neon Color Palette */
+  --neon-blue: #00ffff;
+  --neon-pink: #ff00ff;
+  --neon-purple: #9400d3;
+  --neon-glow: rgba(0, 255, 255, 0.6);
+  
+  /* Background Colors */
+  --dark-bg: #0a0a0a;
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  
+  /* Shadows */
+  --neon-shadow: 0px 0px 10px var(--neon-glow), 0px 0px 20px var(--neon-glow);
+  --soft-shadow: 0px 0px 5px rgba(0, 255, 255, 0.3);
+  
+  /* Typography */
+  --font-main: 'Orbitron', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
+}
+
+@keyframes glitch {
+  0% { text-shadow: 2px 2px 5px #ff00ff, -2px -2px 5px #00ffff; }
+  50% { text-shadow: -2px 2px 5px #ff00ff, 2px -2px 5px #00ffff; }
+  100% { text-shadow: 2px 2px 5px #ff00ff, -2px -2px 5px #00ffff; }
+}
+
+.glitch-text {
+  font-size: 2.5rem;
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  animation: glitch 0.5s infinite alternate;
+}
+
+@keyframes glitch-section {
+  0% { filter: hue-rotate(0deg); }
+  50% { filter: hue-rotate(20deg) contrast(1.5); transform: skewX(-5deg); }
+  100% { filter: hue-rotate(0deg); }
+}
+
+.glitch-section {
+  animation: glitch-section 2s infinite alternate;
+}

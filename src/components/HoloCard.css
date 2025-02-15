@@ -1,0 +1,20 @@
+.holo-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(0,255,255,0.3);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,255,255,0.3);
+    padding: 1.5rem;
+    margin: 1rem 0;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .holo-card:hover {
+    box-shadow: 0 0 15px rgba(0,255,255,0.5);
+  }
+  
+  .holo-card h2 {
+    margin-top: 0;
+    color: #00ffff;
+  }
+  

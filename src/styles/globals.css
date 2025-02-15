@@ -1,0 +1,55 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-secondary);
+}
+
+body {
+  background: var(--dark-bg);
+  color: white;
+  scroll-behavior: smooth;
+}
+
+/* Futuristic Grid Background */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(circle, rgba(0, 255, 255, 0.1) 10%, transparent 80%);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+/* Section Styling */
+section {
+  padding: 80px 10%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Neon Headings */
+h1, h2 {
+  font-family: var(--font-main);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--neon-blue);
+  text-shadow: var(--neon-shadow);
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: var(--neon-pink);
+  text-shadow: var(--soft-shadow);
+}
