@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "version": "0.1.0",
-  "homepage": "https://username.github.io/repo-name",
+  "homepage": "https://lokashrinav.github.io/HoloSite",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.121.5",
