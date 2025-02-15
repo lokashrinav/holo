@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HoloSite/static/css/main.1ebcfd40.css",
+    "main.js": "/HoloSite/static/js/main.9c2fe857.js",
+    "index.html": "/HoloSite/index.html",
+    "main.1ebcfd40.css.map": "/HoloSite/static/css/main.1ebcfd40.css.map",
+    "main.9c2fe857.js.map": "/HoloSite/static/js/main.9c2fe857.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ebcfd40.css",
+    "static/js/main.9c2fe857.js"
+  ]
+}
