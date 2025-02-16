@@ -51,7 +51,7 @@ function AboutSection() {
               <div className="timeline-dot"></div>
               <div className="timeline-content">
                 <h3>🛡️ Winter Defense Tech Fellowship</h3>
-                <p>Internship at Palantir Technologies (Dec 2024 - Jan 2025).</p>
+                <p>Fellowship at Palantir Technologies (Dec 2024 - Jan 2025).</p>
               </div>
             </div>
 
