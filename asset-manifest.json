@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/holo/static/css/main.d915b50e.css",
-    "main.js": "/holo/static/js/main.b56340d8.js",
+    "main.js": "/holo/static/js/main.a47278ce.js",
     "static/media/profile.jpg": "/holo/static/media/profile.4ece571e419c960d164f.jpg",
     "static/media/stock-backtester.png": "/holo/static/media/stock-backtester.037d8a291e834684eebf.png",
     "static/media/holo.png": "/holo/static/media/holo.e0adc15b218d1fc02db1.png",
@@ -10,10 +10,10 @@
     "static/media/mini-database.png": "/holo/static/media/mini-database.f20322490aeb8f1df7c5.png",
     "index.html": "/holo/index.html",
     "main.d915b50e.css.map": "/holo/static/css/main.d915b50e.css.map",
-    "main.b56340d8.js.map": "/holo/static/js/main.b56340d8.js.map"
+    "main.a47278ce.js.map": "/holo/static/js/main.a47278ce.js.map"
   },
   "entrypoints": [
     "static/css/main.d915b50e.css",
-    "static/js/main.b56340d8.js"
+    "static/js/main.a47278ce.js"
   ]
 }
