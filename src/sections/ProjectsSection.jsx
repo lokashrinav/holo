@@ -15,7 +15,7 @@ function ProjectsSection() {
       description: "A Python-based backtesting framework for trading strategies.",
       image: stockBacktesterImg,
       language: "Python",
-      github: "https://github.com/yourusername/Stock-Backtester",
+      github: "https://github.com/lokashrinav/Stock-Backtester",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ function ProjectsSection() {
       description: "A collection of useful automation scripts in Python.",
       image: scriptingImg,
       language: "Python",
-      github: "https://github.com/yourusername/Scripting",
+      github: "https://github.com/lokashrinav/Scripting",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ function ProjectsSection() {
       description: "An interactive card game built using JavaScript.",
       image: fishCardGameImg,
       language: "JavaScript",
-      github: "https://github.com/yourusername/FishCardGame",
+      github: "https://github.com/lokashrinav/FishCardGame",
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ function ProjectsSection() {
       description: "A high-performance file downloader written in Go.",
       image: goFileDownloaderImg,
       language: "Go",
-      github: "https://github.com/yourusername/GoFileDownloader",
+      github: "https://github.com/lokashrinav/GoFileDownloader",
     },
     {
       id: 5,
@@ -47,7 +47,7 @@ function ProjectsSection() {
       description: "A lightweight in-memory database built in C++.",
       image: miniDatabaseImg,
       language: "C++",
-      github: "https://github.com/yourusername/MiniDatabase",
+      github: "https://github.com/lokashrinav/MiniDatabase",
     },
     {
       id: 6,
@@ -55,7 +55,7 @@ function ProjectsSection() {
       description: "A futuristic UI/UX project built with JavaScript.",
       image: holoImg,
       language: "JavaScript",
-      github: "https://github.com/yourusername/holo",
+      github: "https://github.com/lokashrinav/holo",
     },
   ];
 

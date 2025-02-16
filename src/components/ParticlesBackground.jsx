@@ -15,7 +15,7 @@ function ParticlesBackground() {
         background: { color: "transparent" },
         particles: {
           number: { value: 50 },
-          color: { value: "#888888" }, // Changed from "#00ffff" to a grey shade
+          color: { value: "#888888" }, 
           shape: { type: "square" },
           opacity: { value: 0.6 },
           size: { value: 4 },
