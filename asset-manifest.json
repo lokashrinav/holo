@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/holo/static/css/main.1ebcfd40.css",
-    "main.js": "/holo/static/js/main.9c2fe857.js",
+    "main.css": "/holo/static/css/main.d3d47559.css",
+    "main.js": "/holo/static/js/main.57136deb.js",
+    "static/media/profile.jpg": "/holo/static/media/profile.4ece571e419c960d164f.jpg",
+    "static/media/stock-backtester.png": "/holo/static/media/stock-backtester.037d8a291e834684eebf.png",
+    "static/media/holo.png": "/holo/static/media/holo.e0adc15b218d1fc02db1.png",
+    "static/media/scripting.png": "/holo/static/media/scripting.6e310e545b3261f78cd9.png",
+    "static/media/fish-card-game.png": "/holo/static/media/fish-card-game.f16e20928b4f5a83edd3.png",
+    "static/media/mini-database.png": "/holo/static/media/mini-database.f20322490aeb8f1df7c5.png",
     "index.html": "/holo/index.html",
-    "main.1ebcfd40.css.map": "/holo/static/css/main.1ebcfd40.css.map",
-    "main.9c2fe857.js.map": "/holo/static/js/main.9c2fe857.js.map"
+    "main.d3d47559.css.map": "/holo/static/css/main.d3d47559.css.map",
+    "main.57136deb.js.map": "/holo/static/js/main.57136deb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ebcfd40.css",
-    "static/js/main.9c2fe857.js"
+    "static/css/main.d3d47559.css",
+    "static/js/main.57136deb.js"
   ]
 }
