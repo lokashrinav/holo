@@ -22,7 +22,7 @@ function Contact() {
 
       {/* Social Media Icons */}
       <div className="social-links">
-        <a href="https://linkedin.com/in/shrinavl" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/shrinavloka" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a href="https://github.com/lokashrinav" target="_blank" rel="noopener noreferrer">
