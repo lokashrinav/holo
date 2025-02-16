@@ -1,0 +1,111 @@
+/* === About Section Styling === */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 10%;
+    background: rgba(17, 17, 17, 0.9);
+    border: 2px solid #00ffff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* === Layout: Timeline Left | Profile Right === */
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /* === Neon Title === */
+  .neon-text {
+    font-family: "Orbitron", sans-serif;
+    color: #00ffff;
+    font-size: 2.5rem;
+    text-shadow: 0 0 5px #00ffff, 0 0 15px #00ffff, 0 0 30px #00ffff;
+    margin-bottom: 1rem;
+  }
+  
+  /* === Timeline Container === */
+  .timeline-container {
+    flex: 2;
+    text-align: left;
+    padding-right: 3rem;
+  }
+  
+  /* === Timeline Styling === */
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid rgba(0, 255, 255, 0.6);
+  }
+  
+  .timeline-item {
+    position: relative;
+    padding: 1rem 0;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    left: -11px;
+    top: 15px;
+    width: 14px;
+    height: 14px;
+    background: #00ffff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.9);
+  }
+  
+  .timeline-content {
+    background: rgba(0, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  }
+  
+  .timeline-content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+  }
+  
+  /* === Large Rectangular Profile Picture === */
+  .profile-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+  }
+  
+  .holo-frame {
+    width: 300px;
+    height: 400px;
+    border: 3px solid #00ffff;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.8);
+  }
+  
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* === Responsive Design === */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  }
+
+  .about-intro {
+    color: #00ffff;
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  

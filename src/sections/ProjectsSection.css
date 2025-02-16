@@ -1,0 +1,125 @@
+/* === Projects Section === */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 10%;
+    background: rgba(17, 17, 17, 0.9);
+    border: 2px solid #00ffff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    text-align: center;
+  }
+  
+  /* === Grid Layout for Projects === */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 2rem;
+  }
+  
+  /* === Individual Project Cards === */
+  .project-card {
+    background: rgba(0, 255, 255, 0.1);
+    border: 2px solid #00ffff;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  /* === Hover Effect on Project Cards === */
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.8);
+  }
+  
+  /* === Project Images === */
+  .project-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  /* === Project Info === */
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* === Project Title === */
+  .project-info h3 {
+    font-size: 1.5rem;
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* === Programming Language Tags === */
+  .language-tag {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 5px 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* === Language Colors === */
+  .python {
+    background: rgba(53, 114, 165, 0.8);
+    color: #fff;
+  }
+  
+  .javascript {
+    background: rgba(240, 219, 79, 0.8);
+    color: #000;
+  }
+  
+  .go {
+    background: rgba(0, 173, 216, 0.8);
+    color: #fff;
+  }
+  
+  .cpp {
+    background: rgba(86, 156, 214, 0.8);
+    color: #fff;
+  }
+  
+  /* === GitHub Button Styling === */
+  .github-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .github-link:hover {
+    background: #00ffff;
+    color: #111;
+  }
+  
+  /* === Responsive Design === */
+  @media (max-width: 768px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

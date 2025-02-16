@@ -9,11 +9,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.holo-panel:hover {
-  box-shadow: var(--neon-shadow);
-  transform: scale(1.02);
-}
-
 /* Glowing Text */
 .neon-text {
   color: var(--neon-blue);

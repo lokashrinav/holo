@@ -1,9 +1,12 @@
 {
   "name": "personal-site",
   "version": "0.1.0",
-  "homepage": "https://lokashrinav.github.io/HoloSite",
+  "homepage": "https://lokashrinav.github.io/holo",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@react-three/drei": "^9.121.5",
     "@react-three/fiber": "^8.17.14",
     "@react-three/postprocessing": "^2.19.1",
