@@ -1,4 +1,3 @@
-/* === About Section Styling === */
 .about-section {
     display: flex;
     justify-content: center;
@@ -12,7 +11,6 @@
     overflow: hidden;
   }
   
-  /* === Layout: Timeline Left | Profile Right === */
   .about-content {
     display: flex;
     flex-direction: row;
@@ -22,7 +20,6 @@
     max-width: 1200px;
   }
   
-  /* === Neon Title === */
   .neon-text {
     font-family: "Orbitron", sans-serif;
     color: #00ffff;
@@ -31,14 +28,12 @@
     margin-bottom: 1rem;
   }
   
-  /* === Timeline Container === */
   .timeline-container {
     flex: 2;
     text-align: left;
     padding-right: 3rem;
   }
   
-  /* === Timeline Styling === */
   .timeline {
     position: relative;
     padding-left: 2rem;
@@ -73,7 +68,6 @@
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
   }
   
-  /* === Large Rectangular Profile Picture === */
   .profile-container {
     flex: 1;
     display: flex;
@@ -96,7 +90,6 @@
     object-fit: cover;
   }
   
-  /* === Responsive Design === */
   @media (max-width: 768px) {
     .about-content {
       flex-direction: column;
@@ -108,4 +101,21 @@
     font-size: 1rem;
     margin-bottom: 5px;
   }
+
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .timeline-container {
+      text-align: center; 
+      padding-right: 0; 
+      margin-bottom: 2rem;
+    }
+  
+    .profile-container {
+      margin-left: 0;
+    }
+  }  
   
