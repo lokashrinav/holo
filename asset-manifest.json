@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/holo/static/css/main.1ebcfd40.css",
+    "main.js": "/holo/static/js/main.9c2fe857.js",
+    "index.html": "/holo/index.html",
+    "main.1ebcfd40.css.map": "/holo/static/css/main.1ebcfd40.css.map",
+    "main.9c2fe857.js.map": "/holo/static/js/main.9c2fe857.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ebcfd40.css",
+    "static/js/main.9c2fe857.js"
+  ]
+}
