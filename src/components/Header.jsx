@@ -19,12 +19,10 @@ function Header() {
       <nav className="nav-bar">
         <div className="site-title">HoloSite</div>
 
-        {/* Hamburger Menu Icon */}
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
           ☰
         </div>
 
-        {/* Navigation Links */}
         <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
           <li><a href="#hero" onClick={() => setMenuOpen(false)}>Home</a></li>
           <li><a href="#about" onClick={() => setMenuOpen(false)}>Who I Am</a></li>
